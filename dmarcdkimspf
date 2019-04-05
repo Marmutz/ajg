@@ -1,8 +1,0 @@
-DMARC RECORD :
-_dmarc.kemkes.go.id	IN TXT	"v=DMARC1; p=quarantine; rua=mailto:dmarc@kemkes.go.id; ruf=mailto:dmarc@kemkes.go.id; sp=quarantine"
-
-SPF RECORD
-kemkes.go.id		IN TXT 	"v=spf1 mx a ptr ip4:202.70.136.37 ip4:202.70.236.175 ~all"
-
-DKIM RECORD
-mail._domainkey	IN	TXT		("v=DKIM1; k=rsa; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCq11gnOfMRhJZf/jPDn1VxPXVeFJpBdkHLdXIjP7ToAhahePXyuXfcGtTNFq3BTjAtHvaZ3VRWiUSrmCP4XX9s6S8WYgUtIgaqf9ABNBKMUktM+T1ICaMGhqhFsGkV3xS2dDrErztYmEUV9a52QXeBhK+wt+nNr/MSOw4co6yGIwIDAQAB")
